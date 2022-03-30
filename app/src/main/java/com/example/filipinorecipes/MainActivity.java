@@ -22,17 +22,17 @@ public class MainActivity extends AppCompatActivity {
 
         recipes1 = new ArrayList<>();
         recipes1.add(new recipes("Chicken Roll","200 gm chopped into cubes chicken" +
-                "1 medium chopped tomato" +
-                "1/2 pinch red chilli powder" +
-                "2 tablespoon vegetable oil" +
-                "1/2 cut into strips cucumber" +
-                "1/2 tablespoon chopped coriander leaves" +
-                "1 large thinly sliced onion" +
-                "2 medium chopped green chilli" +
-                "2 pinches garam masala powder" +
-                "1 lemon wedges" +
-                "1 teaspoon tomato ketchup" +
-                "1 tablespoon green chilli sauce","Method",
+                "1 medium chopped tomato\n" +
+                "1/2 pinch red chilli powder\n" +
+                "2 tablespoon vegetable oil\n" +
+                "1/2 cut into strips cucumber\n" +
+                "1/2 tablespoon chopped coriander leaves\n" +
+                "1 large thinly sliced onion\n" +
+                "2 medium chopped green chilli\n" +
+                "2 pinches garam masala powder\n" +
+                "1 lemon wedges\n" +
+                "1 teaspoon tomato ketchup\n" +
+                "1 tablespoon green chilli sauce\n","Method",
             "Chicken Roll is a delectable North Indian recipe made using all purpose flour, stir-fried chicken, yoghurt and a variety of vegetables rolled into paranthas. On days you do not want to prepare an elaborate meal, this delectable dish can be a saviour. Rolls are quite popular across India and they are often a favourite evening snack. Egg Roll, Kathi Kebab Roll, Mutton Roll, Paneer Roll, Potato Roll and even Fish Roll are among its many variations. This easy roll recipe is made using chicken and has the unforgettable aroma of Indian spices. You can also utilize your leftover parathas and chapatis in making this recipe. If you do not like to use all-purpose flour or maida, you can make it with whole wheat flour too. In fact, it can be made even with leftover chicken. All you have to ensure is that you use the right amount of spices so that the flavour is not lost. Easy to pack and carry, you can also take it to office or prepare it for picnics and day trips. A must try roll recipe for all chicken lovers!\n",R.drawable.dinakdakan));
 
         recipes1.add(new recipes("Donut","1 c. whole milk" +
@@ -59,15 +59,27 @@ public class MainActivity extends AppCompatActivity {
                     "When the upper surface begins to look cooked (it will no longer look soft or runny), flip the dosa. By this time, ideally, the surface that was underneath should be light golden in color. Cook for 1 minute after flipping.\n" +
                     "The dosa is almost done. Fold it in half and allow to cook for 30 seconds more.",R.drawable.lechonpaksiw));
 
-        recipes1.add(new recipes("Pancake","1 1/4 cups milk" +
-                "1 egg" +
-                "3 tablespoons butter melted" +
-                "1 1/2 cups all-purpose flour" +
-                "3 1/2 teaspoons baking powder" +
-                "1 teaspoon salt" +
-                "1 tablespoon white sugar","Method",
-            "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth." +
-                    "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.",R.drawable.sisig));
+        recipes1.add(new recipes("Sizzling Sisig","2 pounds pig face (snouts, ears, and jowls)\n" +
+                "1 cup vinegar\n" +
+                "1/4 cup soy sauce\n" +
+                "1 head garlic, peeled and crushed\n" +
+                "1 teaspoon whole peppercorns\n" +
+                "2 bay leaves\n" +
+                "1 tablespoon salt\n" +
+                "water\n" +
+                "1 large onion, peeled and diced\n" +
+                "6 Thai chili peppers, stemmed and minced\n" +
+                "1/2 cup calamansi juice\n" +
+                "1 tablespoon Liquid seasoning (I used Maggi)\n" +
+                "1/2 cup liver spread\n" +
+                "pepper to taste\n","Method",
+            "In a large pot, combine pig face, vinegar, soy sauce, garlic, peppercorns, bay leaves, about 1 tablespoon salt,  and enough water to completely cover pork. \n\n" +
+                    "Bring to a boil, skimming scum that floats on top. Lower heat, cover, and simmer for about 50 minutes to 1 hour or until meat is tender. Remove from heat and drain well, discarding liquid.\n\n" +
+                    "Over a hot grill, grill pork for about 7 to 10 minutes on each side or until crisp and slightly charred. Or arrange in a single layer on a baking sheet and broil in a 450 F oven for about 4 to 5 minutes or until nicely charred.\n\n"+
+                    "Remove from heat, allow to cool to touch, and chop meat.\n\n"+
+                    "In a large bowl, combine chopped meat, onions, chili peppers, calamansi juice., and liquid seasoning. \n\n"+
+                    "And liver spread and gently stir to combine. Season with salt and pepper to taste.\n\n"+
+                    "To serve, transfer to sizzling hot plates. ",R.drawable.sisig));
 
         recipes1.add(new recipes("Pancake","1 1/4 cups milk" +
                 "1 egg" +

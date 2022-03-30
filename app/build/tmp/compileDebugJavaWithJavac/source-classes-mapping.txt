@@ -1,5 +1,5 @@
-com/example/filipinorecipes/MainActivity.java
- com.example.filipinorecipes.MainActivity
+com/example/filipinorecipes/recipes.java
+ com.example.filipinorecipes.recipes
 com/example/filipinorecipes/FilipinoRecipeActivity.java
  com.example.filipinorecipes.FilipinoRecipeActivity
 com/example/filipinorecipes/BuildConfig.java
@@ -8,5 +8,5 @@ com/example/filipinorecipes/RecyclerViewAdapter.java
  com.example.filipinorecipes.RecyclerViewAdapter
  com.example.filipinorecipes.RecyclerViewAdapter$1
  com.example.filipinorecipes.RecyclerViewAdapter$MyHolder
-com/example/filipinorecipes/recipes.java
- com.example.filipinorecipes.recipes
+com/example/filipinorecipes/MainActivity.java
+ com.example.filipinorecipes.MainActivity

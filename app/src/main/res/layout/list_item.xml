@@ -14,7 +14,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:scrollbarSize="10dp">
 
         <ImageView
             android:id="@+id/recipe_img_id"
@@ -23,16 +24,21 @@
             android:layout_marginTop="10dp"
             android:background="@color/blue_700"
             android:importantForAccessibility="no"
-            android:scaleType="centerCrop" />
+            android:overScrollMode="always"
+            android:scaleType="centerCrop"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="defaultPosition" />
 
         <TextView
             android:id="@+id/recipe_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/recipeName"
             android:padding="16dp"
-            android:textAppearance="?attr/textAppearanceHeadline6" />
+            android:scrollbars="vertical"
+            android:text="@string/recipeName"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:verticalScrollbarPosition="defaultPosition" />
 
     </LinearLayout>
 
