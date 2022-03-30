@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recipes1 = new ArrayList<>();
-        recipes1.add(new recipes("Chicken Roll","200 gm chopped into cubes chicken" +
+        recipes1.add(new recipes("Dinakdakan","200 gm chopped into cubes chicken" +
                 "1 medium chopped tomato\n" +
                 "1/2 pinch red chilli powder\n" +
                 "2 tablespoon vegetable oil\n" +
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 "1 tablespoon green chilli sauce\n","Method",
             "Chicken Roll is a delectable North Indian recipe made using all purpose flour, stir-fried chicken, yoghurt and a variety of vegetables rolled into paranthas. On days you do not want to prepare an elaborate meal, this delectable dish can be a saviour. Rolls are quite popular across India and they are often a favourite evening snack. Egg Roll, Kathi Kebab Roll, Mutton Roll, Paneer Roll, Potato Roll and even Fish Roll are among its many variations. This easy roll recipe is made using chicken and has the unforgettable aroma of Indian spices. You can also utilize your leftover parathas and chapatis in making this recipe. If you do not like to use all-purpose flour or maida, you can make it with whole wheat flour too. In fact, it can be made even with leftover chicken. All you have to ensure is that you use the right amount of spices so that the flavour is not lost. Easy to pack and carry, you can also take it to office or prepare it for picnics and day trips. A must try roll recipe for all chicken lovers!\n",R.drawable.dinakdakan));
 
-        recipes1.add(new recipes("Donut","1 c. whole milk" +
+        recipes1.add(new recipes("Dinuguan","1 c. whole milk" +
                 "1/4 c. plus 1 tsp. granulated sugar, divided" +
                 "1 packet (or 2 1/4 tsp.) active dry yeast " +
                 "4 c. all-purpose flour, plus more if needed" +
@@ -81,15 +81,20 @@ public class MainActivity extends AppCompatActivity {
                     "And liver spread and gently stir to combine. Season with salt and pepper to taste.\n\n"+
                     "To serve, transfer to sizzling hot plates. ",R.drawable.sisig));
 
-        recipes1.add(new recipes("Pancake","1 1/4 cups milk" +
-                "1 egg" +
-                "3 tablespoons butter melted" +
-                "1 1/2 cups all-purpose flour" +
-                "3 1/2 teaspoons baking powder" +
-                "1 teaspoon salt" +
-                "1 tablespoon white sugar","Method",
-                "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth." +
-                        "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.",R.drawable.tapa));
+        recipes1.add(new recipes("Tapa","1 1/4 cups milk" +
+                "1 1/2 lb beef sirloin\n" +
+                "5 tablespoons soy sauce\n" +
+                "3 tbsp minced garlic or 1 tablespoon garlic powder\n" +
+                "2 tbsp sugar\n" +
+                "1/4 teaspoon salt\n" +
+                "1/4 teaspoon ground black pepper\n","Method",
+                "In a container, combine soy sauce, garlic, salt, pepper, and sugar and mix well, then set aside\n\n" +
+                        "Place the beef in the clear plastic bag," +
+                        "and pour-in the the mixed seasonings in the clear plastic bag with meat and mix well\n\n" +
+                        "Then, place inside the refrigerator and marinate for a minimum of 12 hours.\n" +
+                        "In a pan, place 1 cup water and bring to a boil " +
+                        "then add 3 tbsp of cooking oil\n\n" +
+                        "Finally, put-in the marinated beef tapa and cook until the water evaporates.",R.drawable.tapa));
 
 
         myrecyclerView = (RecyclerView)findViewById(R.id.recyclerView_id);
