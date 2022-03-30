@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/miciella/Documents/GitHub/MobileProg_Finals/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/danafayehuang/AndroidStudioProjects/MobileProg_Finals/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/miciella/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/danafayehuang/.gradle/caches/transforms-3/bbb8700b735e281600c794ad33b02613/transformed/appcompat-1.3.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -1,4 +1,4 @@
-#Wed Mar 30 09:41:36 PST 2022
-base.0=/Users/miciella/Documents/GitHub/MobileProg_Finals/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Mar 30 21:18:33 PST 2022
+base.0=/Users/danafayehuang/AndroidStudioProjects/MobileProg_Finals/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

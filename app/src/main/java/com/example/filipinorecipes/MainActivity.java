@@ -96,6 +96,25 @@ public class MainActivity extends AppCompatActivity {
                         "then add 3 tbsp of cooking oil\n\n" +
                         "Finally, put-in the marinated beef tapa and cook until the water evaporates.",R.drawable.tapa));
 
+        recipes1.add(new recipes("Lumpiang Shanghai", "1 pound ground chicken or pork\n" +
+                "1/2 cup green onions, finely chopped\n" +
+                "1 can (8 ounces) water chestnuts, drained and finely chopped\n" +
+                "1 medium carrot, peeled and shredded\n" +
+                "3 cloves garlic, peeled and minced\n" +
+                "1 tablespoon soy sauce\n" +
+                "1 teaspoon salt\n" +
+                "1/2 teaspoon ground black pepper\n" +
+                "20 pieces spring roll wrappers\n" +
+                "Canola oil", "Method",
+                "1.) In a bowl, combine ground chicken, green onions, water chestnuts, carrots, garlic, soy sauce, salt, and pepper until well distributed.\n" +
+                        "2.) Separate wrappers into individual sheets and lay on a flat working surface.\n" +
+                        "3.) Spoon about 1 heaping tablespoon of meat mixture on the lower end of the wrapper, closest to you.\n" +
+                        "4.) Fold the bottom of wrapper over filling and continue to roll tightly into a thin log about 3/4-inch thick. Wet the remaining edge of the wrapper with a dab of water to completely seal.\n" +
+                        "5.) Repeat with the remaining mixture. Using scissors, cut each lumpia roll into about 3-inch lengths.\n" +
+                        "6.) In a pan over medium heat, heat about 2-inch deep of oil. Add lumpia in batches and cook turning on sides as needed, for about 3 to 4 minutes or until golden brown and crisp and meat is cooked through. \n" +
+                        "7.) Using a slotted spoon or tongs, remove from the oil and drain on a wire rack set over a baking sheet. Serve immediately with sweet and sour sauce or banana ketchup.\n",
+                R.drawable.lumpia));
+
 
         myrecyclerView = (RecyclerView)findViewById(R.id.recyclerView_id);
         myAdapter = new RecyclerViewAdapter(this,recipes1);
