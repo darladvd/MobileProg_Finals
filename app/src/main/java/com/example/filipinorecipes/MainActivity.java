@@ -115,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
                         "7.) Using a slotted spoon or tongs, remove from the oil and drain on a wire rack set over a baking sheet. Serve immediately with sweet and sour sauce or banana ketchup.\n",
                 R.drawable.lumpia));
 
-
         myrecyclerView = (RecyclerView)findViewById(R.id.recyclerView_id);
         myAdapter = new RecyclerViewAdapter(this,recipes1);
         myrecyclerView.setLayoutManager(new GridLayoutManager(this,1));
